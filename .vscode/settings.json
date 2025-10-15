@@ -1,0 +1,69 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // 🧠 IntelliSense & React Native
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": true,
+  "react-native-tools.showWelcomeMessage": false,
+  "react-native-tools.preferredProject": "expo",
+  "react-native-tools.logLevel": "Info",
+
+  "search.exclude": {
+    "**/.expo": true,
+    "**/.expo-shared": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": false,
+
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": ["tw`([^`]*)", "tw\\(\"([^\"]*)\"\\)"],
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "files.eol": "\n",
+
+  "search.useIgnoreFiles": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.scrollback": 10000,
+
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
